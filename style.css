@@ -72,7 +72,8 @@ button {
 }
 
 button:hover{
-    background-color: aqua;
+    background-color: black;
+    color: #DFCFD2;
 }
 
 .myskills{ 
