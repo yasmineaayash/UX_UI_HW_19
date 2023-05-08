@@ -6,22 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style.css" rel="stylesheet">
     <title>Document</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');  
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Montserrat:wght@500;600&display=swap');
-    </style>
 
-    <!-- link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"></head> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Nav HTML -->
     <header> 
         <nav class="nav"> 
-            <a href="#">HOME</a>
-            <a href="#">ABOUT</a>
-            <a href="#">WORK</a>
-            <a href="#">CONTACT</a>
+            <a class="navlink" href="#">HOME</a>
+            <a class="navlink" href="#">ABOUT</a>
+            <a class="navlink" href="#">WORK</a>
+            <a class="navlink" href="#">CONTACT</a>
         </nav>
     <hr class="line">
         <div class="logo">
@@ -88,12 +85,12 @@
 
     <section class="mywork"> 
     <div class="button">
-        <a href="#">Resumé</a> 
+        <button onclick="location.href = 'https://drive.google.com/file/d/17e7BdpXF4hOYgIgTAPjO_Ppi9aE2UTAw/view?usp=sharing';"> Resumé </button>
     </div>
 
     <div class="workgrid">
         <div class="project"> 
-            <img src="./images/Art.svg">
+            <img class="workimages" src="./images/Art.svg">
             <h2> Canada Council for the Arts <br>
                 Redesign
                  </h2>
@@ -107,7 +104,7 @@
                 country's cultural richness and diversity. </p1>
         </div>
         <div class="project"> 
-            <img src="./images/The Stop.svg">
+            <img class="workimages" src="./images/The Stop.svg">
             <h2> The Stop <br>
             Redesign </h2>
             <p1> The Stop is a community-driven organization based in Toronto, 
@@ -118,7 +115,7 @@
                   and more resilient community. </p1>
         </div>
         <div class="project"> 
-            <img src="./images/Fridge friend.svg">
+            <img class="workimages" src="./images/Fridge friend.svg">
             <h2> Fridge Friend </h2>
             <p1> Developed an app that tackles food waste and tracks the 
                 shelf life of food in our fridge, alerting us when our
@@ -127,7 +124,7 @@
                  our fridge healthy.  </p1>
         </div>
         <div class="project"> 
-            <img src="./images/Marshal Me.svg">
+            <img class="workimages" src="./images/Marshal Me.svg">
             <h2> Marshal Me </h2>
             <p1> "Marshal Me" is a travel app that assists you with 
                 your organizational process of packing only what is 
@@ -157,5 +154,9 @@
                 <p>Copyright © 2020</p>
             </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./index.js"></script>
+
 </body>
 </html>

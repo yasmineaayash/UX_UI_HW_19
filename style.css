@@ -6,7 +6,7 @@ body {
     float: right;
     padding-right: 30px;
   }
-nav a {
+.navlink {
     font-size: 18px;
     text-align: left; 
     color: #DFCFD2;
@@ -58,21 +58,21 @@ nav{
     width: 30%;
     float: right;
 }
-.button a { 
+button { 
     color: black;
     font-family: 'Gloria Hallelujah';
     font-weight: 400;
     text-decoration: none;
     font-size: 30px;
     border-radius: 20px;
-    background: #BCC5B2; 
+    background-color: #BCC5B2; 
     width: 200px;
     height: 60px; 
+    border:none;
 }
-.button{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+
+button:hover{
+    background-color: aqua;
 }
 
 .myskills{ 
@@ -119,6 +119,17 @@ P1{
 }
 
 .project{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workimages{
+    width: 70%;
+    height: auto;
+}
+
+.mywork{
     display: flex;
     flex-direction: column;
     align-items: center;
