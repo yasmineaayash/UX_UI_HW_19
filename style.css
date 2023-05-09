@@ -54,6 +54,15 @@ nav{
     margin-bottom: -40px;
 
 }
+.P4{
+    text-align: right;
+    color: #DFCFD2;
+    font-family: 'Gloria Hallelujah';
+    font-weight:400;
+    font-size: 35px;
+    margin-bottom: -40px;
+}
+
 .divider{
     width: 30%;
     float: right;

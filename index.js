@@ -13,10 +13,11 @@ $(".navlink").hover(function(){
     $(this).css("width", "70%");
   }); 
 
-  $(".navlink").hover(function(){
-    $(this).css("color", "black");
-  },
-  function(){
-    $(this).css("color", "#DFCFD2");
-  });
+  function changeText(element) {
+    element.innerHTML = "It's nice to meet you! ";
+  }
+  
+  function restoreText(element) {
+    element.innerHTML = "Hi, I'm Yasmine Ayash";
+  }
   
