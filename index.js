@@ -1,6 +1,6 @@
 console.log("test1");
 $(".navlink").hover(function(){
-    $(this).css("color", "black");
+    $(this).css("color", "#513D33");
   },
   function(){
     $(this).css("color", "#DFCFD2");
